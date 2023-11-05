@@ -14,11 +14,12 @@ import { ConsultaPage } from '../pages/Consulta/Consulta.page.jsx';
 import { HomePage } from '../pages/Home/Home.jsx';
 import { PrivateRoutes } from './PrivateRoutes.jsx';
 
+
 export const AppRoutes = () => {
 
   return (
   <ToastProvider>
-      <Routes>               
+      <Routes>
         <Route path="/usuarios/login" element={<Login />} />
         <Route path="/">
             <Route index element={
